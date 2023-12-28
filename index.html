@@ -20,6 +20,44 @@
     <title>Shortly</title>
   </head>
   <body>
-    
+    <!-- HERO -->
+    <section id="section">
+      <!-- CONTAINER HEADER -->
+      <div class="container max-w-6xl py-10 px-6 mx-auto relative">
+        <!-- NAVBAR -->
+        <nav class="flex items-center justify-between md:px-4">
+          <div class="flex items-center justify-between space-x-6">
+            <!-- IMAGE & NAV ITEMS -->
+            <img src="/images/logo.svg" alt="">
+            <div class="items-center justify-between hidden md:flex space-x-5">
+              <div class="group">
+                <a href="#" class=" text-md text-slate-400 text-sans">Features</a>
+                <div class="group-hover:border-b group-hover:border-2 group-hover:border-slate-400 mx-4"></div>
+              </div>
+              <div class="group">
+                <a href="#" class=" text-md text-slate-400 text-sans">Pricing</a>
+                <div class="group-hover:border-b group-hover:border-2 group-hover:border-slate-400 mx-4"></div>
+              </div>
+              <div class="group">
+                <a href="#" class=" text-md text-slate-400 text-sans">Resources</a>
+                <div class="group-hover:border-b group-hover:border-2 group-hover:border-slate-400 mx-4"></div>
+              </div>
+            </div>
+          </div>
+          <!-- LOGIN & SIGN UP -->
+          <div class="flex items-center justify-between hidden md:block space-x-6">
+            <button type="button" class="text-md text-slate-400 text-sans hover:-translate-y-0.5">Login</button>
+            <button type="button" class="text-white bg-cyan py-3 px-8 rounded-full">Sign Up</button>
+          </div>
+          <!-- HAMBURGER BUTTON -->
+          <div id="hamburger-btn" class="md:hidden relative z-40">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </div>
+        </nav>
+        <div id="menu" class="absolute w-full top-0 left-0 min-h-screen bg-black bottom-0 hidden"></div>
+      </div>
+    </section>
   </body>
 </html>
